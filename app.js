@@ -53,10 +53,19 @@ const html = `
     </style>
   </head>
   <body>
-    <section>
-     <h1>Nora myli kaciukus</h1>
-          <img src="https://cdn.pixabay.com/photo/2017/02/20/18/03/cat-2083492_1280.jpg" alt="Cute Cat">
-    </section>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Love</title>
+</head>
+<body>
+    <h1>Nora myli kaciukus</h1>
+    <img src="https://cdn.pixabay.com/photo/2017/02/20/18/03/cat-2083492_1280.jpg" alt="Cute Cat" width="400">
+</body>
+</html>
+
   </body>
 </html>
 `
