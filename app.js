@@ -54,7 +54,8 @@ const html = `
   </head>
   <body>
     <section>
-      Hello from Nedas Jankauskas!
+      Nora myli kaciukus
+          <img src="https://placekitten.com/400/300" alt="Cute Cat">
     </section>
   </body>
 </html>
