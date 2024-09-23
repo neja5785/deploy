@@ -55,7 +55,7 @@ const html = `
   <body>
     <section>
       Nora myli kaciukus
-          <img src="https://placekitten.com/400/300" alt="Cute Cat">
+          <img src="https://cdn.pixabay.com/photo/2017/02/20/18/03/cat-2083492_1280.jpg" alt="Cute Cat">
     </section>
   </body>
 </html>
