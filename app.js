@@ -50,6 +50,22 @@ const html = `
         margin-right: -50%;
         transform: translate(-50%, -50%);
       }
+      h1 {
+            font-size: 48px;
+            color: #ff6347;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+        iframe {
+            width: 560px;
+            height: 315px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        p {
+            font-size: 24px;
+            color: #555;
+        }
     </style>
   </head>
   <body>
@@ -61,11 +77,15 @@ const html = `
     <title>Cat Love</title>
 </head>
 <body>
-    <h1>Nora myli kaciukus</h1>
-    <img src="https://cdn.pixabay.com/photo/2017/02/20/18/03/cat-2083492_1280.jpg" alt="Cute Cat" width="400">
+      
+      
 </body>
 </html>
-
+<body>
+    <h1>Sveiki mano followeriai<333333</h1>
+    <iframe title="Funny Gym Cat" src="https://imgur.com/saRKrSM/embed" frameborder="0" allowfullscreen></iframe>
+    <p>Even this cat knows the importance of leg day!</p>
+</body>
   </body>
 </html>
 `
