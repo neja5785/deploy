@@ -76,12 +76,18 @@ const html = `
     <h1>Su gimtadieniu seny <333333</h1>
     <img src="rokui.png" alt="Funny Cat">
 
-    <!-- Background music playing without controls -->
-    <audio autoplay loop>
+    <!-- Background music with autoplay and muted attributes -->
+    <audio autoplay loop muted id="background-music">
       <source src="timber.mp3" type="audio/mpeg">
       Your browser does not support the audio element.
     </audio>
 
+    <!-- Add a button to unmute the audio -->
+    <button onclick="document.getElementById('background-music').muted = false;">
+      Unmute Music
+    </button>
+
   </body>
 </html>
 `;
+
