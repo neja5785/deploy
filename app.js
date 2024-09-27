@@ -82,9 +82,8 @@ const html = `
 </body>
 </html>
 <body>
-    <h1>Sveiki mano followeriai<333333</h1>
-    <iframe title="Funny Gym Cat" src="https://imgur.com/saRKrSM/embed" frameborder="0" allowfullscreen></iframe>
-    <p>Even this cat knows the importance of leg day!</p>
+    <h1>Su gimtadieniu seny <333333</h1>
+    <iframe title="Funny Gym Cat" src="rokui.png" frameborder="0" allowfullscreen></iframe>
 </body>
   </body>
 </html>
