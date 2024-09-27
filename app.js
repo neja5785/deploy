@@ -76,8 +76,8 @@ const html = `
     <h1>Su gimtadieniu seny <333333</h1>
     <img src="rokui.png" alt="Funny Cat">
 
-    <!-- Adding background music with controls to debug -->
-    <audio autoplay loop controls>
+    <!-- Background music playing without controls -->
+    <audio autoplay loop>
       <source src="timber.mp3" type="audio/mpeg">
       Your browser does not support the audio element.
     </audio>
