@@ -17,7 +17,7 @@ const html = `
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Hello from Render!</title>
+    <title>Siuuuuuuuuuuuuuuuuu</title>
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
     <script>
       setTimeout(() => {
@@ -76,18 +76,12 @@ const html = `
     <h1>Su gimtadieniu seny <333333</h1>
     <img src="rokui.png" alt="Funny Cat">
 
-    <!-- Background music with autoplay and muted attributes -->
-    <audio autoplay loop muted id="background-music">
+    <!-- Adding background music with controls to debug -->
+    <audio autoplay loop controls>
       <source src="timber.mp3" type="audio/mpeg">
       Your browser does not support the audio element.
     </audio>
 
-    <!-- Add a button to unmute the audio -->
-    <button onclick="document.getElementById('background-music').muted = false;">
-      Unmute Music
-    </button>
-
   </body>
 </html>
 `;
-
