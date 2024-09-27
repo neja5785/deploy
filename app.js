@@ -1,6 +1,10 @@
 const express = require("express");
 const app = express();
+const path = require('path');
 const port = process.env.PORT || 3001;
+
+// Serve static files from the same directory
+app.use(express.static(path.join(__dirname)));
 
 app.get("/", (req, res) => res.type('html').send(html));
 
@@ -56,7 +60,7 @@ const html = `
             text-transform: uppercase;
             margin-bottom: 20px;
         }
-        iframe {
+        img {
             width: 560px;
             height: 315px;
             border-radius: 10px;
@@ -69,22 +73,8 @@ const html = `
     </style>
   </head>
   <body>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cat Love</title>
-</head>
-<body>
-      
-      
-</body>
-</html>
-<body>
     <h1>Su gimtadieniu seny <333333</h1>
-    <iframe title="Funny Gym Cat" src="rokui.png" frameborder="0" allowfullscreen></iframe>
-</body>
+    <img src="rokui.png" alt="Funny Cat">
   </body>
 </html>
-`
+`;
